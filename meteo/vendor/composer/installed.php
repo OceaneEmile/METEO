@@ -1,0 +1,176 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'da62f7d46b51272d4c89813224ca2836d38c5fab',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'da62f7d46b51272d4c89813224ca2836d38c5fab',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/container' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'reference' => 'c71ecc56dfe541dbd90c5360474fbc405f8d5963',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/container',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/log-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0|2.0|3.0',
+            ),
+        ),
+        'symfony/console' => array(
+            'pretty_version' => 'v7.0.1',
+            'version' => '7.0.1.0',
+            'reference' => 'cdce5c684b2f920bb1343deecdfba356ffad83d5',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/console',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/dotenv' => array(
+            'pretty_version' => 'v7.0.0',
+            'version' => '7.0.0.0',
+            'reference' => '782d55cb978921499086df75888bda88888ad1c3',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/dotenv',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/flex' => array(
+            'pretty_version' => 'v2.4.2',
+            'version' => '2.4.2.0',
+            'reference' => '67ee785f1aedada76461de7a7ec10cd7f8ff8d36',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../symfony/flex',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-ctype' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'symfony/polyfill-iconv' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'symfony/polyfill-intl-grapheme' => array(
+            'pretty_version' => 'v1.28.0',
+            'version' => '1.28.0.0',
+            'reference' => '875e90aeea2777b6f135677f618529449334a612',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-intl-grapheme',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-intl-normalizer' => array(
+            'pretty_version' => 'v1.28.0',
+            'version' => '1.28.0.0',
+            'reference' => '8c4ad05dd0120b6a53c1ca374dca2ad0a1c4ed92',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-intl-normalizer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-mbstring' => array(
+            'pretty_version' => 'v1.28.0',
+            'version' => '1.28.0.0',
+            'reference' => '42292d99c55abe617799667f454222c54c60e229',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-mbstring',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-php72' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'symfony/polyfill-php73' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'symfony/polyfill-php74' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'symfony/polyfill-php80' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'symfony/polyfill-php81' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'symfony/polyfill-php82' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'symfony/runtime' => array(
+            'pretty_version' => 'v7.0.0',
+            'version' => '7.0.0.0',
+            'reference' => '65a4e69b1cdcee4f4f7a619a41d4b7ec79e85406',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../symfony/runtime',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/service-contracts' => array(
+            'pretty_version' => 'v3.4.0',
+            'version' => '3.4.0.0',
+            'reference' => 'b3313c2dbffaf71c8de2934e2ea56ed2291a3838',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/service-contracts',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/string' => array(
+            'pretty_version' => 'v7.0.0',
+            'version' => '7.0.0.0',
+            'reference' => '92bd2bfbba476d4a1838e5e12168bef2fd1e6620',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/string',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/yaml' => array(
+            'pretty_version' => 'v7.0.0',
+            'version' => '7.0.0.0',
+            'reference' => '0055b230c408428b9b5cde7c55659555be5c0278',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/yaml',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
