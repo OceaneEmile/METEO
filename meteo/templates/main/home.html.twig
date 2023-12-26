@@ -7,13 +7,15 @@
             <div class="col-9">
 
                 <h1 class="mb-5">Bienvenue sur la météo des villes !</h1>
-                 {% for compteur, weather in weatherData %}
-                 
+                {% for index, weather in weatherData %}
                 <div class="item item--bg-snow">
-                    <div class="item--city"><a href="{{ path('app_city_id', {'id': id}) }}">{{weather.city}}</a></div>
-                    <div class="item--forecast">{{weather.date}} : {{weather.min}}/{{weather.max}}</div>
+                    <div class="item--city">
+                        {# Using the loop index as a makeshift identifier #}
+                        <a href="{{ path('app_city_id', {'index': loop.index0}) }}">{{ weather.city }}</a>
+                    </div>
+                    <div class="item--forecast">{{ weather.date }}: {{ weather.min }}/{{ weather.max }}</div>
                 </div>
-                {% endfor %}
+            {% endfor %}
 
             </div>
 

@@ -26,10 +26,10 @@ class CityController extends AbstractController
      */
 // Les données pour une ville => j'utilise la méthode GET et id
 // Ds le WeatherModel, j'utilise la méthode getWeatherBycityIndex
-    #[Route('/city/{id}', name: 'app_city_id',methods:['GET'])]
-    public function show(int $id)
+    #[Route('/city/{index}', name: 'app_city_id',methods:['GET'])]
+    public function show(int  $index)
     {
-    $weatherData= WeatherModel::getWeatherByCityIndex($id);
+    $weatherData= WeatherModel::getWeatherByCityIndex($index);
     //dump($weatherData);
     return $this->render('city/city.html.twig', [
         'controller_name' => 'CityController',

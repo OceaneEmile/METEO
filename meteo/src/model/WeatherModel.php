@@ -13,7 +13,7 @@ class WeatherModel
     }
 
     /**
-     * Retourne une prévision selon son id
+     * Retourne une prévision selon son index
      * 
      * @param int $index L'index de la prévision
      * 
