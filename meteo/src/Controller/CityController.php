@@ -12,10 +12,10 @@ class CityController extends AbstractController
     #[Route('/city', name: 'app_city')]
     public function index(): Response
     {
-        $defaultWeatherData = [];
+        $weatherData = WeatherModel::getWeatherData();   
     return $this->render('city/city.html.twig', [
            'controller_name' => 'CityController',
-           'weatherData' => $defaultWeatherData,
+          
        ]);
     }
 
