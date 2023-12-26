@@ -8,6 +8,7 @@
 
                 <h1 class="mb-5">Bienvenue sur la météo des villes !</h1>
                  {% for compteur, weather in weatherData %}
+                 
                 <div class="item item--bg-snow">
                     <div class="item--city"><a href="{{ path('app_city') }}">{{weather.city}}</a></div>
                     <div class="item--forecast">{{weather.date}} : {{weather.min}}/{{weather.max}}</div>

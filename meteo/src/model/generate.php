@@ -57,4 +57,4 @@ foreach ($cities as $city) {
 
 header('Content-Type: text/plain; charset=utf-8');
 
-echo $output;
+//echo $output;

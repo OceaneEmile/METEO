@@ -19,7 +19,7 @@ class WeatherModel
      * 
      * @return null|array Null si non trouvé ou les infos de la prévision demandée
      */
-    public static function getWeatherByCityIndex(int $index): ?array
+    public static function getWeatherByCityIndex(int $index): array
     {
         if (!isset(self::$weatherData[$index])) {
             return null;
