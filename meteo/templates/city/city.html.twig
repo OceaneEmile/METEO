@@ -7,15 +7,15 @@
             <div class="col-9 city">      
                 <div class="d-flex justify-content-between align-items-center">
                     
-                    <h1>Prévision pour <i> {{city}}</i></h1>
+                    <h1>Prévision pour <i> {{weatherData.city}}</i></h1>
                     <a href="#" class="btn btn-outline-success">Choisir cette ville</a>
                 </div>
                 <div class="city-forecast mb-3">
-                    <img src="./images/city1.jpg" alt="Annecy" class="img-fluid city-forecast__image">
+                    <img src="{{asset('./images/city1.jpg')}}" alt="Annecy" class="img-fluid city-forecast__image">
                     <div class="city-forecast__details">
-                        <img src="./images/sun-cloud.png">
-                        <span>Le 29-01-2017</span>
-                        <span class="city-forecast__details--degrees">0 &deg;C / 6 &deg;C</span>
+                        <img src="{{asset('./images/sun-cloud.png')}}">
+                        <span>{{ weatherData.date }}</span>
+                        <span class="city-forecast__details--degrees">{{ weatherData.min }} &deg;C /{{ weatherData.max }}  &deg;C</span>
                         <span></span>
                     </div>
                 </div>

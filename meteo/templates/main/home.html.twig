@@ -8,7 +8,7 @@
 
                 <h1 class="mb-5">Bienvenue sur la météo des villes !</h1>
                 {% for index, weather in weatherData %}
-                <div class="item item--bg-snow">
+                <div class="item item--bg-{{ weather.weather}}">
                     <div class="item--city">
                         {# Using the loop index as a makeshift identifier #}
                         <a href="{{ path('app_city_id', {'index': loop.index0}) }}">{{ weather.city }}</a>

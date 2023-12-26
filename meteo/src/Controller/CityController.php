@@ -36,7 +36,8 @@ class CityController extends AbstractController
 
         'weatherData' => $weatherData,
 // Je veux afficher les villes de mon tableau dans le WeatherModel $WeatherData
-        'city' => $weatherData['city']
+       // 'city' => $weatherData['city'],
+        
 
     ]);
    
