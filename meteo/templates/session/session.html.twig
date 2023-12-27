@@ -1,0 +1,5 @@
+{% extends 'base.html.twig' %}
+{% block main %}
+    <h1>Hello {{ username }}</h1>
+    <p><a href="{{ path('main_home',{username}) }}">Retour à la page d'accueil</a></p>
+{% endblock %}

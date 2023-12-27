@@ -8,7 +8,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                     
                     <h1>Prévision pour <i> {{weatherData.city}}</i></h1>
-                    <a href="#" class="btn btn-outline-success">Choisir cette ville</a>
+                    <a href="{{ path('session') }}" class="btn btn-outline-success">Choisir cette ville</a>
                 </div>
                 <div class="city-forecast mb-3">
                     <img src="{{asset('./images/city1.jpg')}}" alt="Annecy" class="img-fluid city-forecast__image">
